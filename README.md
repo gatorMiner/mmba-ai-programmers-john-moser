@@ -15,6 +15,23 @@
 
 ---
 
+## Where we are (project status)
+
+*Proof-of-concept phase. Updated 2026-10-16.*
+
+**Live now**
+- Archetype template v1 (`v1.0.0-betty-ep01`) — constant makeup expression, variable face/costume/setting. All Rogues Gallery characters build on it.
+- Curated manual runs under `examples/` — prompt, image candidates, metadata, storyboard per episode. `examples/betty_ep01/` is the first.
+- Prompt versioning convention and metadata schema in active use.
+
+**Manual by choice**
+- Image generation (Meta AI), candidate selection, storyboard and audio direction. Human taste is the gating step — this is deliberate, not a gap.
+
+**Later**
+- Smart contracts, IPFS pinning, automated minting, full CI/CD. The design below is the end state; we get there piece by piece.
+
+---
+
 ## Use case and workflow
 
 **Target user**: Creative technologists and small teams producing narrative NFT collections who want automated generation with editorial control.
