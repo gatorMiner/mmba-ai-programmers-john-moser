@@ -84,3 +84,24 @@ Use this checklist in the review UI for human approvers.
 ```
 
 ---
+
+## 7. Rogues Gallery Archetype Template v1 (Betty Ep01)
+
+Locked from the first manual pipeline run (2026-10-16). The makeup expression is CONSTANT across all characters; the face underneath varies. See `examples/betty_ep01/` for the full curated run (prompt, 4 watercolor candidates, metadata, storyboard).
+
+**Constant (all characters)**
+```
+Base: pale chalk-white makeup base. Grin: wide fixed red grin with extended smile lines. Eyes: wide staring eyes with heavy black outline. Era: 1950s nostalgic. Render: stylized watercolor graphic-novel illustration, non-photoreal (required for safety).
+```
+
+**Template**
+```
+Create a stylized watercolor graphic-novel portrait of "[character_name]" — [gender], [age], [hair]. Wearing [costume]. Makeup (constant): pale chalk-white base, wide fixed red grin with extended smile lines, wide staring eyes with heavy black outline around the eyes. Era: 1950s nostalgic. Setting: [setting]. Style: illustrated watercolor, non-photoreal, graphic novel. Mood: cheerful menace. Generate 4 variations.
+```
+
+**Example (Betty Ep01, selected anchor)**
+```
+Create a stylized watercolor graphic-novel portrait of "Betty" — young woman, brown ponytail, red polka-dot bandana, teal soda-shop uniform with white apron and BETTY name tag. Makeup (constant): pale chalk-white base, wide fixed red grin with extended smile lines, wide staring eyes with heavy black outline around the eyes. Era: 1950s nostalgic. Setting: soda shop interior, SODAS 25c / MALTS / MILKSHAKES sign behind. Style: illustrated watercolor, non-photoreal, graphic novel. Mood: cheerful menace. Generate 4 variations.
+```
+
+**prompt_version:** `v1.0.0-betty-ep01`

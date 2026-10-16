@@ -1,0 +1,38 @@
+{
+  "archetype": "laughing_reflection",
+  "audio_direction": {
+    "mint_requirement": "royalty-free soundalike \u2014 light orchestral, pizzicato strings, glockenspiel, cheerful woodwinds, ~120 bpm",
+    "search_terms": "1950s shopping pizzicato glockenspiel cheerful, retro department store light orchestral",
+    "style_reference": "Busy Shoppers by Len Stevens (Ren & Stimpy / SpongeBob production music style) \u2014 reference ONLY, not for mint"
+  },
+  "character": "Betty",
+  "episode": "ep01_soda_counter",
+  "era": "1950s_nostalgic",
+  "images": {
+    "candidates": [
+      "images/variety_housewife_victory_rolls.webp",
+      "images/variety_fedora_man.webp",
+      "images/betty_polka_dots_original.webp"
+    ],
+    "selected": "images/betty_soda_shop_selected.webp",
+    "selected_id": "betty_soda_shop_watercolor_001"
+  },
+  "metadata_version": "1.0",
+  "pipeline_trace": [
+    "prompt_validation: pass",
+    "image_generation: 4 candidates",
+    "gating: pass",
+    "hitl_review: user selected Betty (soda shop)",
+    "narrative: drafted",
+    "metadata: ready",
+    "mint: pending (manual)"
+  ],
+  "prompt_version": "v1.0.0-betty-ep01",
+  "soliloquy": "Welcome to Betty's, hon. Smile big, they told us...",
+  "title": "The Laughing Reflection \u2014 Betty Ep01: Soda Counter Smile",
+  "traits": {
+    "base": "chalk_white_pale",
+    "eyes": "wide_staring_heavy_black_outline",
+    "grin": "wide_fixed_red_extended"
+  }
+}

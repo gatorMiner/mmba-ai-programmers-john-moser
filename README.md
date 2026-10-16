@@ -131,6 +131,17 @@ Using the following lore context retrieved via RAG: [lore chunks], write a 120 t
 
 ---
 
+## Examples and manual runs
+
+**`examples/betty_ep01/`** — first manual run of the pipeline (prompt → image → narrative → metadata), curated 2026-10-16.
+
+- Character: **Betty** (anchor) — soda-shop attendant, 1950s nostalgic. Selected from a 4-candidate watercolor variety pack; see `examples/betty_ep01/images/`.
+- Archetype template v1 (`v1.0.0-betty-ep01`): constant makeup expression (pale chalk-white base, wide fixed red grin with extended smile lines, wide staring eyes with heavy black outline) with a variable face, costume, and setting underneath. All future Rogues Gallery characters reuse the constant block.
+- Contents: `prompt_v1.md` (template + Betty instance), `images/` (4 candidates), `metadata.json` (traits, soliloquy, audio direction, pipeline trace), `storyboard.md` (5 beats with music cues and intertitles).
+- Audio direction: *Busy Shoppers* by Len Stevens is a style reference ONLY — minting requires a royalty-free soundalike (light orchestral, pizzicato, glockenspiel, ~120 bpm).
+
+---
+
 ## Evaluation strategy
 
 **Principles**: Combine automated metrics with SME human review to measure quality cost and reliability.
@@ -249,4 +260,5 @@ Using the following lore context retrieved via RAG: [lore chunks], write a 120 t
 ******************************************
 *********  end of project readme *********
 ******************************************
+
 
