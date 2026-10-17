@@ -17,11 +17,11 @@
 
 ## Where we are (project status)
 
-*Proof-of-concept phase. Updated 2026-10-16.*
+*Proof-of-concept phase. Updated 2026-10-17.*
 
 **Live now**
-- Archetype template v1 (`v1.0.0-betty-ep01`) — constant makeup expression, variable face/costume/setting. All Rogues Gallery characters build on it.
-- Curated manual runs under `examples/` — prompt, image candidates, metadata, storyboard per episode. `examples/betty_ep01/` is the first.
+- Archetype template v1 — constant makeup expression, variable face/costume/setting. All Rogues Gallery characters build on it (`v1.0.0-betty-ep01` through `v1.0.0-betty-ep03`).
+- Curated manual runs under `examples/` — prompt, image candidates, metadata, storyboard, soliloquy per episode. Three Betty episodes so far: `betty_ep01/` (Soda Counter Smile), `betty_ep02/` (Closing Time), `betty_ep03/` (Night Watch).
 - Prompt versioning convention and metadata schema in active use.
 
 **Manual by choice**
@@ -156,6 +156,10 @@ Using the following lore context retrieved via RAG: [lore chunks], write a 120 t
 - Archetype template v1 (`v1.0.0-betty-ep01`): constant makeup expression (pale chalk-white base, wide fixed red grin with extended smile lines, wide staring eyes with heavy black outline) with a variable face, costume, and setting underneath. All future Rogues Gallery characters reuse the constant block.
 - Contents: `prompt_v1.md` (template + Betty instance), `images/` (4 candidates), `metadata.json` (traits, soliloquy, audio direction, pipeline trace), `storyboard.md` (5 beats with music cues and intertitles).
 - Audio direction: *Busy Shoppers* by Len Stevens is a style reference ONLY — minting requires a royalty-free soundalike (light orchestral, pizzicato, glockenspiel, ~120 bpm).
+
+**`examples/betty_ep02/`** — "Closing Time" (curated 2026-10-17). Logline: *The shop closes. The grin doesn't.* 5-beat storyboard, approved soliloquy, 2 watercolor candidates (neon-grin close-up, key locked from the inside). Unlockable lore: *Betty's shift never ended. The CLOSED sign was for everyone else.*
+
+**`examples/betty_ep03/`** — "Night Watch" (curated 2026-10-17). Logline: *The street is empty. The window isn't.* 5-beat rainy-night storyboard, soliloquy, 2 watercolor candidates (interior watch, exterior storefront). Unlockable lore: *After close, Betty took the window shift. No one clocked her out.* Audio brief: rain foley + pizzicato + glockenspiel at night tempo.
 
 ---
 

@@ -1,0 +1,32 @@
+{
+  "archetype": "laughing_reflection",
+  "audio_direction": {
+    "mint_requirement": "royalty-free soundalike \u2014 rain foley + pizzicato + glockenspiel slowed to night tempo"
+  },
+  "beats": 5,
+  "character": "Betty",
+  "episode": "ep03_night_watch",
+  "era": "1950s_nostalgic",
+  "images": {
+    "candidates": [
+      "images/betty_ep03_interior_watch_rain.webp",
+      "images/betty_ep03_exterior_storefront_rain.webp"
+    ],
+    "note": "anchor not marked in source docs; both candidates preserved",
+    "selected": null
+  },
+  "logline": "The street is empty. The window isn't.",
+  "metadata_version": "1.0",
+  "prompt_version": "v1.0.0-betty-ep03",
+  "source_note": "built from the storyboard + soliloquy docs; no separate metadata doc was present in the Drive folder",
+  "tagline": "Innocent and Creepy in the same breath \u2014 Night Watch edition",
+  "template": "chalk_white_base + wide_fixed_red_grin + wide_eyes_heavy_black_outline + 1950s_nostalgic",
+  "title": "The Laughing Reflection \u2014 Betty Ep03: Night Watch",
+  "traits": {
+    "base": "chalk_white_pale",
+    "eyes": "wide_staring_heavy_black_outline",
+    "grin": "wide_fixed_red_extended"
+  },
+  "unlockable_lore": "After close, Betty took the window shift. No one clocked her out.",
+  "voice": "1950s soda-shop waitress, patient watcher, Vault Boy ad-copy cadence"
+}

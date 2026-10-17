@@ -1,0 +1,33 @@
+{
+  "approval": "APPROVED by Johnny \u2014 Ep02 Closing Time (per source doc)",
+  "archetype": "laughing_reflection",
+  "audio_direction": {
+    "mint_requirement": "royalty-free soundalike, NOT the Len Stevens master \u2014 light orchestral pizzicato glockenspiel winding down to a single note + vinyl crackle + neon buzz"
+  },
+  "beats": 5,
+  "character": "Betty",
+  "episode": "ep02_closing_time",
+  "era": "1950s_nostalgic",
+  "images": {
+    "candidates": [
+      "images/betty_ep02_neon_grin_close.webp",
+      "images/betty_ep02_key_locked_in.webp"
+    ],
+    "note": "anchor not marked in source docs; both candidates preserved",
+    "selected": null
+  },
+  "logline": "The shop closes. The grin doesn't.",
+  "metadata_version": "1.0",
+  "prompt_version": "v1.0.0-betty-ep02",
+  "source_note": "reconstructed from the readable summary doc; the full betty_ep02_metadata.json was referenced in Drive but not present in the folder",
+  "tagline": "Innocent and Creepy in the same breath",
+  "template": "chalk_white_base + wide_fixed_red_grin + wide_eyes_heavy_black_outline + 1950s_nostalgic",
+  "title": "The Laughing Reflection \u2014 Betty Ep02: Closing Time",
+  "traits": {
+    "base": "chalk_white_pale",
+    "eyes": "wide_staring_heavy_black_outline",
+    "grin": "wide_fixed_red_extended"
+  },
+  "unlockable_lore": "Betty's shift never ended. The CLOSED sign was for everyone else.",
+  "voice": "1950s soda-shop waitress, sweet-adjacent, unsettlingly cheerful, Vault Boy ad-copy cadence"
+}
